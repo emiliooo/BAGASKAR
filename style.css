@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.kontener {
+  width: 100%;
+  height: 0;
+  background-image: url("IMG/Jumbo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border: 1px solid red;
+  padding-bottom: 60%; }
+
+li {
+  display: inline-block;
+  border: 1px solid pink; }
+
+.grid_container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid red; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*=col-] {
+  min-height: 1px;
+  border: 1px solid blue;
+  float: left; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-9 {
+  border: 1px solid blue;
+  text-align: right; }
+
+.grey-section {
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 120px;
+  padding-bottom: 320px;
+  background-color: #ededed; }
+
+.topOne {
+  margin-top: 420px; }
+
+.topTwo {
+  margin-top: 237px; }
+
+.topTree {
+  margin-top: 420px; }
+
+.txt {
+  text-align: center;
+  color: white; }
+
+.button1 {
+  width: 100px;
+  height: 100px; }
+
+.type2 {
+  width: 100%;
+  height: 0;
+  background-image: url("IMG/type2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border: 1px solid red;
+  padding-bottom: 60%; }
+
+.centrum {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,108 @@
+$colNum:12;
+$basicGrid:100%/$colNum;
+
+
+@function gridWidth($colNum){
+  @return $basicGrid*$colNum;
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.kontener{
+  width: 100%;
+  height: 0;
+  background-image:url('IMG/Jumbo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x:center;
+  border:1px solid red;
+  padding-bottom: 60%;
+}
+
+li {
+  display: inline-block;
+  //width: 400px;
+  //height:70%;
+  border:1px solid pink;
+}
+
+.grid_container {
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  border: 2px solid red;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*=col-]{
+  min-height: 1px;
+  border:1px solid blue;
+  float:left;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width : gridWidth($i);
+  }
+}
+
+.col-9{
+  border:1px solid blue;
+  text-align: right;
+}
+
+.grey-section{
+  width: 100%;
+  border:1px solid red;
+  margin-top:120px;
+  padding-bottom: 320px;
+  background-color: #ededed;
+}
+
+.topOne {
+  margin-top: 420px;
+}
+.topTwo{
+  margin-top:237px;
+}
+
+.topTree{
+  margin-top:420px;
+}
+.txt{
+  text-align: center;
+  color:white;
+}
+
+.button1{
+  width: 100px;
+  height: 100px;
+}
+
+.type2{
+  width: 100%;
+  height: 0;
+  background-image:url('IMG/type2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x:center;
+  border:1px solid red;
+  padding-bottom: 60%;
+}
+.centrum {
+  text-align: center;
+}
