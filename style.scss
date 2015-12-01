@@ -147,17 +147,17 @@ li {
   }
 
 .button{
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  background: #9f449b;
+  background-image: -webkit-linear-gradient(top, #9f449b, #9f449b);
+  background-image: -moz-linear-gradient(top, #9f449b, #9f449b);
+  background-image: -ms-linear-gradient(top, #9f449b #9f449b);
+  background-image: -o-linear-gradient(top, ##9f449b, #9f449b);
+  background-image: linear-gradient(to bottom, #9f449b, #9f449b);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Arial;
-  color: #ffffff;
+  color: #9f449b;
   font-size: 28px;
   padding: 7px 20px 10px 20px;
   text-decoration: none;
@@ -188,6 +188,11 @@ li {
 
 .pics img {
     width:90%;
+}
+
+
+.eclip{
+  margin-top: 150px;
 
 }
 
@@ -208,7 +213,7 @@ img{
   width: 100%;
   border:1px solid red;
   margin-top:40px;
-  padding-bottom: 500px;
+  padding-bottom: 250px;
   background-color: #ededed;
 }
 .form{
