@@ -232,7 +232,27 @@ input[name="field2"]{ border-width:2px; border-color:#cccccc; border-style:solid
 input[name="field2"]:focus { outline:none; }
 
 
-.topTwo >:first-child
-{
-   
+.menu ul li:hover {
+  color: red;
+  font-size:25px;
+}
+
+
+.topOne >:first-child:hover{
+  background-image:url("Uptape/port.png");
+}
+.topOne >:last-child:hover{
+  background-image:url("Uptape/port.png");
+}
+.topTwo >:first-child:hover{
+  background-image:url("Uptape/port.png");
+}
+.topTwo >:last-child:hover{
+  background-image:url("Uptape/port.png");
+}
+.topTree >:first-child:hover{
+  background-image:url("Uptape/port.png");
+}
+.topTree >:last-child:hover{
+  background-image:url("Uptape/port.png");
 }
