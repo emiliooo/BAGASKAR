@@ -247,4 +247,37 @@ li {
   background-color: #ededed;
 }
 
+.form {
+  margin-top: 130px;
+}
+
+.LoLast .col-12 {
+  margin-top: 50px;
+}
+
+input[name="field1"] {
+  border-color: #cccccc;
+  border-style: solid;
+  font-size: 18px;
+  padding: 15px;
+  border-width: 3px;
+  width: 408px;
+}
+
+input[name="field1"]:focus {
+  outline: none;
+}
+
+input[name="field2"] {
+  border-width: 2px;
+  border-color: #cccccc;
+  border-style: solid;
+  padding: 30px;
+  font-size: 28px;
+}
+
+input[name="field2"]:focus {
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */
