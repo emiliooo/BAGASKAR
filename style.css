@@ -1,9 +1,11 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .kontener {
   width: 100%;
@@ -13,140 +15,228 @@ body {
   background-size: cover;
   background-position-x: center;
   border: 1px solid red;
-  padding-bottom: 60%; }
+  padding-bottom: 60%;
+}
 
 li {
   display: inline-block;
-  border: 1px solid pink; }
+  border: 1px solid pink;
+}
 
 .grid_container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid red; }
+  border: 2px solid red;
+}
 
 .row:before,
 .row:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 [class*=col-] {
   min-height: 1px;
   border: 1px solid blue;
-  float: left; }
+  float: left;
+}
 
 .col-1 {
-  width: 8.33333%; }
+  width: 8.33333%;
+}
 
 .col-2 {
-  width: 16.66667%; }
+  width: 16.66667%;
+}
 
 .col-3 {
-  width: 25%; }
+  width: 25%;
+}
 
 .col-4 {
-  width: 33.33333%; }
+  width: 33.33333%;
+}
 
 .col-5 {
-  width: 41.66667%; }
+  width: 41.66667%;
+}
 
 .col-6 {
-  width: 50%; }
+  width: 50%;
+}
 
 .col-7 {
-  width: 58.33333%; }
+  width: 58.33333%;
+}
 
 .col-8 {
-  width: 66.66667%; }
+  width: 66.66667%;
+}
 
 .col-9 {
-  width: 75%; }
+  width: 75%;
+}
 
 .col-10 {
-  width: 83.33333%; }
+  width: 83.33333%;
+}
 
 .col-11 {
-  width: 91.66667%; }
+  width: 91.66667%;
+}
 
 .col-12 {
-  width: 100%; }
+  width: 100%;
+}
 
 .col-9 {
   border: 1px solid blue;
-  text-align: right; }
+  text-align: right;
+}
 
 .grey-section {
   width: 100%;
   border: 1px solid red;
-  margin-top: 120px;
+  margin-top: 40px;
   padding-bottom: 320px;
-  background-color: #ededed; }
+  background-color: #ededed;
+}
 
 .topOne {
-  margin-top: 420px; }
+  margin-top: 505px;
+}
 
 .topTwo {
-  margin-top: 237px; }
+  margin-top: 323px;
+}
 
 .topTree {
-  margin-top: 420px; }
+  margin-top: 505px;
+}
 
-.txt {
+.txt p {
   text-align: center;
-  color: white; }
-
-.button1 {
-  width: 100px;
-  height: 100px; }
+  color: white;
+}
 
 .type2 {
   width: 100%;
-  height: 0;
+  height: 400px;
   background-image: url("IMG/type2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
   border: 1px solid red;
-  padding-bottom: 60%;
-  background-attachment: fixed; }
+  padding-bottom: 41%;
+  background-attachment: fixed;
+}
 
 .centrum {
-  text-align: center; }
+  text-align: center;
+}
 
 .loader {
   margin-top: 80px;
-  margin-bottom: 20px; }
+  margin-bottom: 90px;
+}
 
 .dym {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .head {
-  margin-top: 500px; }
+  margin-top: 233px;
+}
 
 .our1 {
-  padding-top: 50px; }
+  padding-top: 50px;
+}
 
-.our2 {
-  padding-bottom: 100px; }
+.our2 .col-12 {
+  margin-top: 85px;
+}
 
 .grey-section2 {
   width: 100%;
   border: 1px solid red;
   margin-top: 120px;
   padding-bottom: 500px;
-  background-color: #ededed; }
+  background-color: #ededed;
+}
 
 .circle {
-  margin-top: 50px; }
+  margin-top: 400px;
+}
 
 .skill {
-  margin-top: 190px; }
+  margin-top: 190px;
+}
 
 .first {
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
-.marginT {
-  margin-top: 150px; }
+.photos .col-12 {
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+
+.tekst p {
+  padding-top: 87px;
+  font-size: 16pt;
+}
+
+.button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 7px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.fontsLato {
+  font-family: 'Lato', sans-serif;
+  font-size: 16pt;
+}
+
+.head p {
+  color: white;
+  font-size: 48pt;
+}
+
+#cir {
+  margin-top: 77px;
+}
+
+#cir .col-4 p {
+  margin-top: 70px;
+}
+
+.head p {
+  font-size: 48pt;
+}
+
+.pics img {
+  width: 90%;
+}
+
+.button2 {
+  margin-bottom: 20px;
+}
+
+.about .button {
+  margin-top: 134px;
+}
 
 /*# sourceMappingURL=style.css.map */
