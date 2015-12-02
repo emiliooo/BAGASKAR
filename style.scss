@@ -77,14 +77,14 @@ li {
 .roomes .col-4{
   margin-bottom: -56px;
 }
-.topOne {
+.topO {
   margin-top:287px;
 }
-.topTwo{
+.topT{
   margin-top:100px;
 
 }
-.topTree{
+.topTre{
   margin-top:287px;
 
 }
@@ -245,35 +245,37 @@ input[name="field2"]:focus { outline:none; }
   margin-left:10px;
 }
 
-.topOne >:first-child:hover{
+
+
+.topOne img:hover {
+  background-image: url("Uptape/port.png");
+  transition-duration: 3s;
+}
+
+
+.topTwo img:hover{
   background-image:url("Uptape/port.png");
-  background-color:transparent;
+}
+.toptree img:hover{
+  background-image:url("Uptape/port.png");
 
 }
-.topOne >:last-child:hover{
+.topfiv img:hover{
   background-image:url("Uptape/port.png");
-  transition-duration:3s;
+
 }
-.topTwo >:first-child:hover{
+.topsix img:hover{
   background-image:url("Uptape/port.png");
-  transition-duration:3s;
+
 }
-.topTwo >:last-child:hover{
-  background-image:url("Uptape/port.png");
-  transition-duration:3s;
-}
-.topTree >:first-child:hover{
-  background-image:url("Uptape/port.png");
-  transition-duration:3s;
-}
-.topTree >:last-child:hover{
-  background-image:url("Uptape/port.png");
-  transition-duration:3s;
+.topse img:hover {
+  background-image: url("Uptape/port.png");
+
 }
 
 .photos .row .col-12 img:hover{
   background-color:#9f449b;
-  transition-duration:2s;
+
 }
 
 .first .col-3 img:hover{
