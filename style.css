@@ -95,7 +95,7 @@ li {
 .grey-section {
   width: 100%;
   margin-top: 40px;
-  padding-bottom: 320px;
+  padding-bottom: 173px;
   background-color: #ededed;
 }
 
@@ -165,7 +165,7 @@ li {
 }
 
 .first {
-  margin-top: 100px;
+  margin-top: 38px;
 }
 
 .photos .col-12 {
@@ -189,7 +189,7 @@ li {
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Arial;
-  color: #9f449b;
+  color: white;
   font-size: 28px;
   padding: 7px 20px 10px 20px;
   text-decoration: none;
@@ -283,7 +283,11 @@ input[name="field2"]:focus {
 
 .menu ul li:hover {
   color: red;
-  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu ul li {
+  margin-left: 10px;
 }
 
 .topOne > :first-child:hover {
@@ -292,22 +296,40 @@ input[name="field2"]:focus {
 
 .topOne > :last-child:hover {
   background-image: url("Uptape/port.png");
+  transition-duration: 3s;
 }
 
 .topTwo > :first-child:hover {
   background-image: url("Uptape/port.png");
+  transition-duration: 3s;
 }
 
 .topTwo > :last-child:hover {
   background-image: url("Uptape/port.png");
+  transition-duration: 3s;
 }
 
 .topTree > :first-child:hover {
   background-image: url("Uptape/port.png");
+  transition-duration: 3s;
 }
 
 .topTree > :last-child:hover {
   background-image: url("Uptape/port.png");
+  transition-duration: 3s;
+}
+
+.photos .row .col-12 img:hover {
+  background-color: #9f449b;
+  transition-duration: 2s;
+}
+
+.first .col-3 img:hover {
+  background: url("IMG/ObramF.png");
+}
+
+.first .col-3 {
+  margin-top: 132px;
 }
 
 /*# sourceMappingURL=style.css.map */
