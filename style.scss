@@ -247,6 +247,7 @@ input[name="field2"]:focus { outline:none; }
 
 .topOne >:first-child:hover{
   background-image:url("Uptape/port.png");
+  background-color:transparent;
 
 }
 .topOne >:last-child:hover{
@@ -281,4 +282,13 @@ input[name="field2"]:focus { outline:none; }
 
 .first .col-3{
   margin-top:132px;
+}
+
+.topOne >:last-child:active{
+
+
+}
+
+#test{
+  top:1000px;
 }

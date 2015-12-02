@@ -292,6 +292,7 @@ input[name="field2"]:focus {
 
 .topOne > :first-child:hover {
   background-image: url("Uptape/port.png");
+  background-color: transparent;
 }
 
 .topOne > :last-child:hover {
@@ -330,6 +331,10 @@ input[name="field2"]:focus {
 
 .first .col-3 {
   margin-top: 132px;
+}
+
+#test {
+  top: 1000px;
 }
 
 /*# sourceMappingURL=style.css.map */
